@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #282c34;
+    color: #61dafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dice-area {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dice {
+    width: 60px;
+    height: 60px;
+    background-color: #61dafb;
+    color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dice.selected {
+    border: 2px solid #21a1f1;
+}
+
+.controls button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    background-color: #21a1f1;
+}
+
+.categories {
+    margin-top: 20px;
+}
+
+.categories h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.category:hover {
+    color: #21a1f1;
+}
+
+.score-area h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
